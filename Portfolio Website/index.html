@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#resume">Resume/CV</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Melluri Shiva Narayana</span></h1>
+                    <h2>Cyber Security Analyst</h2>
+                    <p>As a dedicated Cyber Security Analyst, I specialize in protecting digital assets and information systems from threats and vulnerabilities. With expertise in threat detection, incident response, and security implementation, I work diligently to identify potential security risks and develop effective mitigation strategies. My analytical approach combines technical knowledge with problem-solving skills to ensure robust security postures for organizations. I'm passionate about staying ahead of emerging cyber threats and continuously enhancing my skills to combat evolving security challenges in today's interconnected digital landscape.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary-btn">Contact Me</a>
+                        <a href="#portfolio" class="btn secondary-btn">View My Work</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shivanarayana7" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MSNarayana35" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Shiva.jpg" alt="Melluri Shiva Narayana" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resume / CV</h2>
+                <p>My education and professional experience</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-column">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>CSE-Cyber Security</h4>
+                        <h5>Malla Reddy University | 2023 - 2027</h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3>Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>Cyber Security Analyst - Intern</h4>
+                        <h5>Google LLC | 2024 - Present</h5>
+                        <p>I worked with professionals to know how things work in analysis of Cyber Security.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-download">
+                <a href="download.php" class="btn primary-btn">Download Full CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Showcasing my best work and projects</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="other">Other Projects</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project1.svg" alt="BudgetBuddy Project" class="project-image">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>BudgetBuddy</h3>
+                        <p>Web Development</p>
+                        <p class="project-description">A personal finance application that helps users track expenses, set budgets, and visualize spending patterns. Built with React, Node.js, and MongoDB, featuring secure authentication and real-time data visualization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project2.svg" alt="Skill-Swap Project" class="project-image">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Skill-Swap</h3>
+                        <p>Design</p>
+                        <p class="project-description">A platform connecting people who want to exchange skills and knowledge. Features include user profiles, skill matching algorithm, and messaging system. Designed with Figma and implemented with a focus on accessibility and user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Adobe XD</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project3.svg" alt="TalentGram Project" class="project-image">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>TalentGram</h3>
+                        <p>Web Development</p>
+                        <p class="project-description">A social networking platform for creative professionals to showcase their work and connect with potential clients. Includes portfolio management, project collaboration tools, and integrated payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <p>My technical and soft skills</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-column">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>HTML/CSS</h4>
+                            <p>90%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>JavaScript</h4>
+                            <p>85%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>React</h4>
+                            <p>80%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>Node.js</h4>
+                            <p>75%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>Communication</h4>
+                            <p>95%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>Teamwork</h4>
+                            <p>90%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>Problem Solving</h4>
+                            <p>85%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <h4>Time Management</h4>
+                            <p>80%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications & Achievements</h2>
+                <p>Professional certifications and awards</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Cambridge B2 - Communication Skills</h3>
+                        <p>Cambridge University | 2024</p>
+                        <p>Certification from Cambridge University to develop communication and professional skills that are useful for working purposes.</p>
+                    </div>
+                </div>
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Hackathon</h3>
+                        <p>IIT Hyderabad | 2025</p>
+                        <p>Done a basic project given by the panel members about a coffee shop.</p>
+                    </div>
+                </div>
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Front-End Web Development</h3>
+                        <p>IIT Hyderabad | 2025</p>
+                        <p>Learnt how to build User Interfaces in a website and developed skills about it from scratch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>What others say about my work</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Shiva's cybersecurity expertise is exceptional. His ability to identify vulnerabilities and implement robust security measures helped our organization prevent several potential breaches. His clear communication made complex security concepts accessible to our entire team."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonials/person1.svg" alt="James Wilson" class="testimonial-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>James Wilson</h4>
+                            <p>CTO, TechSecure Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Working with Shiva on our security infrastructure upgrade was a game-changer. His methodical approach to threat assessment and mitigation strategy development gave us confidence in our systems. He's not just technically proficient but also a great team collaborator."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonials/person2.svg" alt="Sarah Johnson" class="testimonial-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>IT Director, Global Finance Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Shiva's dedication to staying current with emerging threats is impressive. During our security audit, he identified several non-obvious vulnerabilities that other analysts had missed. His detailed reporting and actionable recommendations were invaluable to strengthening our security posture."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonials/person3.svg" alt="Dr. Michael Chen" class="testimonial-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Dr. Michael Chen</h4>
+                            <p>CISO, HealthData Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Blog</h2>
+                <p>My thoughts and insights</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <div class="blog-image">
+                        <img src="images/blog/blog1.svg" alt="Cyber Security Fundamentals" class="blog-post-image">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-folder"></i> Security Basics</span>
+                        </div>
+                        <h3>Essential Cybersecurity Practices for Everyone</h3>
+                        <p>In today's digital landscape, cybersecurity isn't just for experts. Learn the fundamental security practices that everyone should implement to protect their digital identity and personal information.</p>
+                        <a href="blog1.html" class="blog-link">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-image">
+                        <img src="images/blog/blog2.svg" alt="Advanced Threat Detection" class="blog-post-image">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> August 22, 2023</span>
+                            <span><i class="far fa-folder"></i> Threat Intelligence</span>
+                        </div>
+                        <h3>The Evolution of Advanced Persistent Threats</h3>
+                        <p>Advanced Persistent Threats (APTs) have evolved significantly in recent years. This article explores current APT tactics, techniques, and procedures, and how organizations can enhance their detection capabilities.</p>
+                        <a href="blog2.html" class="blog-link">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-image">
+                        <img src="images/blog/blog3.svg" alt="Incident Response Framework" class="blog-post-image">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> October 7, 2023</span>
+                            <span><i class="far fa-folder"></i> Incident Response</span>
+                        </div>
+                        <h3>Building an Effective Incident Response Framework</h3>
+                        <p>When security incidents occur, a well-designed response framework can make all the difference. Discover the key components of an effective incident response plan and how to implement them in your organization.</p>
+                        <a href="blog3.html" class="blog-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <p>Get in touch for opportunities or collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>shivastudy1510@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+91 7075512599</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shivanarayana7" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MSNarayana35" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>e-portfolio</h2>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/shivanarayana7" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/MSNarayana35" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Melluri Shiva Narayana. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

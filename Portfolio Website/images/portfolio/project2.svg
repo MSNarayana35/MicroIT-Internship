@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Design Mockup Frame -->
+  <rect x="50" y="30" width="300" height="240" rx="8" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- App Header -->
+  <rect x="50" y="30" width="300" height="40" rx="8" ry="8" fill="#6200ea"/>
+  <text x="200" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Skill-Swap</text>
+  
+  <!-- Search Bar -->
+  <rect x="70" y="80" width="260" height="30" rx="15" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+  <text x="100" y="100" font-family="Arial" font-size="12" fill="#999" text-anchor="start">Search skills...</text>
+  <circle cx="310" cy="95" r="8" fill="#6200ea"/>
+  <path d="M313 98 L320 105" stroke="#6200ea" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Skill Cards -->
+  <!-- Card 1 -->
+  <rect x="70" y="120" width="120" height="140" rx="5" fill="white" stroke="#ddd" stroke-width="1"/>
+  <circle cx="130" cy="150" r="20" fill="#bbdefb"/>
+  <text x="130" y="155" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">🎨</text>
+  <text x="130" y="185" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Graphic Design</text>
+  <text x="130" y="205" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Offered by Jane</text>
+  <rect x="90" y="220" width="80" height="25" rx="12.5" fill="#6200ea"/>
+  <text x="130" y="235" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Connect</text>
+  
+  <!-- Card 2 -->
+  <rect x="210" y="120" width="120" height="140" rx="5" fill="white" stroke="#ddd" stroke-width="1"/>
+  <circle cx="270" cy="150" r="20" fill="#ffecb3"/>
+  <text x="270" y="155" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">💻</text>
+  <text x="270" y="185" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">Web Development</text>
+  <text x="270" y="205" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Offered by Alex</text>
+  <rect x="230" y="220" width="80" height="25" rx="12.5" fill="#6200ea"/>
+  <text x="270" y="235" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Connect</text>
+</svg>

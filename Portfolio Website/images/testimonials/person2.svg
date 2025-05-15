@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#e8f5e9"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="85" r="45" fill="#ffe0b2"/>
+  
+  <!-- Hair -->
+  <path d="M60 60 Q100 30 140 60 L140 90 Q120 100 80 100 Q60 100 60 90 Z" fill="#212121"/>
+  <path d="M60 60 Q80 50 100 50 Q120 50 140 60" fill="#212121" stroke="#212121" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="85" cy="80" rx="6" ry="4" fill="#3d3d3d"/>
+  <ellipse cx="115" cy="80" rx="6" ry="4" fill="#3d3d3d"/>
+  
+  <!-- Eyebrows -->
+  <path d="M75 72 Q85 68 95 72" stroke="#3d3d3d" stroke-width="2" fill="transparent"/>
+  <path d="M105 72 Q115 68 125 72" stroke="#3d3d3d" stroke-width="2" fill="transparent"/>
+  
+  <!-- Nose -->
+  <path d="M100 85 Q105 95 100 98 Q95 95 100 85" fill="#e8c39e"/>
+  
+  <!-- Mouth -->
+  <path d="M85 105 Q100 115 115 105" stroke="#ff6f00" stroke-width="2" fill="transparent"/>
+  
+  <!-- Neck -->
+  <path d="M85 130 L85 150 L115 150 L115 130" fill="#ffe0b2"/>
+  
+  <!-- Shirt/Blouse -->
+  <path d="M60 150 L85 150 L85 130 Q100 135 115 130 L115 150 L140 150 L150 200 L50 200 Z" fill="#7b1fa2"/>
+  
+  <!-- Necklace -->
+  <path d="M85 135 Q100 150 115 135" stroke="#ffd700" stroke-width="2" fill="transparent"/>
+  <circle cx="100" cy="145" r="3" fill="#ffd700"/>
+</svg>

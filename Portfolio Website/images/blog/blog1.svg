@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#263238"/>
+  
+  <!-- Digital Security Concept -->
+  <!-- Shield -->
+  <path d="M200 50 L260 70 L260 130 Q230 170 200 180 Q170 170 140 130 L140 70 Z" fill="#0d47a1" stroke="#1565c0" stroke-width="2"/>
+  
+  <!-- Lock Icon -->
+  <rect x="180" y="100" width="40" height="30" rx="5" fill="#1565c0"/>
+  <rect x="185" y="80" width="30" height="20" rx="10" fill="#1565c0" stroke="#90caf9" stroke-width="2"/>
+  <circle cx="200" cy="110" r="5" fill="#90caf9"/>
+  <line x1="200" y1="110" x2="200" y2="120" stroke="#90caf9" stroke-width="2"/>
+  
+  <!-- Binary Code Background -->
+  <text x="50" y="30" font-family="monospace" font-size="10" fill="#4fc3f7">01001100 01101111 01110010 01100101 01101101</text>
+  <text x="50" y="45" font-family="monospace" font-size="10" fill="#4fc3f7">01001001 01110000 01110011 01110101 01101101</text>
+  <text x="300" y="30" font-family="monospace" font-size="10" fill="#4fc3f7">01000100 01101111 01101100 01101111 01110010</text>
+  <text x="300" y="45" font-family="monospace" font-size="10" fill="#4fc3f7">01010011 01101001 01110100 01000001 01101101</text>
+  <text x="50" y="200" font-family="monospace" font-size="10" fill="#4fc3f7">01000011 01101111 01101110 01110011 01100101</text>
+  <text x="50" y="215" font-family="monospace" font-size="10" fill="#4fc3f7">01000011 01110100 01100101 01110100 01110101</text>
+  <text x="300" y="200" font-family="monospace" font-size="10" fill="#4fc3f7">01000001 01100100 01101001 01110000 01101001</text>
+  <text x="300" y="215" font-family="monospace" font-size="10" fill="#4fc3f7">01110011 01100011 01101001 01101110 01100111</text>
+  
+  <!-- Network Connections -->
+  <circle cx="100" cy="100" r="20" fill="transparent" stroke="#4fc3f7" stroke-width="1"/>
+  <circle cx="300" cy="100" r="20" fill="transparent" stroke="#4fc3f7" stroke-width="1"/>
+  <circle cx="100" cy="170" r="20" fill="transparent" stroke="#4fc3f7" stroke-width="1"/>
+  <circle cx="300" cy="170" r="20" fill="transparent" stroke="#4fc3f7" stroke-width="1"/>
+  
+  <line x1="120" y1="100" x2="140" y2="100" stroke="#4fc3f7" stroke-width="1"/>
+  <line x1="260" y1="100" x2="280" y2="100" stroke="#4fc3f7" stroke-width="1"/>
+  <line x1="120" y1="170" x2="140" y2="130" stroke="#4fc3f7" stroke-width="1"/>
+  <line x1="260" y1="130" x2="280" y2="170" stroke="#4fc3f7" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="200" y="230" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Cyber Security Fundamentals</text>
+</svg>

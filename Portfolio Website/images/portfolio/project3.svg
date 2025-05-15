@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- App Frame -->
+  <rect x="50" y="30" width="300" height="240" rx="8" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- App Header -->
+  <rect x="50" y="30" width="300" height="40" rx="8" ry="0" fill="#ff5722"/>
+  <text x="200" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle">TalentGram</text>
+  
+  <!-- Navigation Icons -->
+  <rect x="50" y="70" width="300" height="30" fill="#ffffff" stroke="#eee" stroke-width="1"/>
+  <circle cx="90" cy="85" r="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="130" cy="85" r="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="170" cy="85" r="10" fill="#ff5722" stroke="#ff5722" stroke-width="1"/>
+  <circle cx="210" cy="85" r="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="250" cy="85" r="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <circle cx="290" cy="85" r="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Content Area -->
+  <!-- Profile Card -->
+  <rect x="70" y="110" width="260" height="150" rx="5" fill="white" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Profile Header -->
+  <rect x="70" y="110" width="260" height="40" fill="#f5f5f5" rx="5" ry="0"/>
+  <circle cx="100" cy="130" r="15" fill="#e0e0e0"/>
+  <text x="130" y="127" font-family="Arial" font-size="12" fill="#333" font-weight="bold">Sarah Williams</text>
+  <text x="130" y="142" font-family="Arial" font-size="10" fill="#666">Musician • Pianist</text>
+  
+  <!-- Talent Showcase -->
+  <rect x="85" y="160" width="230" height="70" fill="#f9f9f9" rx="3"/>
+  
+  <!-- Piano Keys Illustration -->
+  <rect x="100" y="170" width="200" height="40" fill="#333"/>
+  <rect x="110" y="170" width="10" height="25" fill="white"/>
+  <rect x="130" y="170" width="10" height="25" fill="white"/>
+  <rect x="150" y="170" width="10" height="25" fill="white"/>
+  <rect x="170" y="170" width="10" height="25" fill="white"/>
+  <rect x="190" y="170" width="10" height="25" fill="white"/>
+  <rect x="210" y="170" width="10" height="25" fill="white"/>
+  <rect x="230" y="170" width="10" height="25" fill="white"/>
+  <rect x="250" y="170" width="10" height="25" fill="white"/>
+  <rect x="270" y="170" width="10" height="25" fill="white"/>
+  
+  <!-- Music Notes -->
+  <path d="M120 155 C 123 145, 130 150, 127 160" stroke="#ff5722" stroke-width="1.5" fill="transparent"/>
+  <circle cx="120" cy="160" r="3" fill="#ff5722"/>
+  
+  <path d="M150 150 C 153 140, 160 145, 157 155" stroke="#ff5722" stroke-width="1.5" fill="transparent"/>
+  <circle cx="150" cy="155" r="3" fill="#ff5722"/>
+  
+  <!-- Interaction Buttons -->
+  <rect x="85" y="240" width="70" height="15" rx="7.5" fill="#f5f5f5"/>
+  <text x="120" y="251" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Like</text>
+  
+  <rect x="165" y="240" width="70" height="15" rx="7.5" fill="#f5f5f5"/>
+  <text x="200" y="251" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Comment</text>
+  
+  <rect x="245" y="240" width="70" height="15" rx="7.5" fill="#f5f5f5"/>
+  <text x="280" y="251" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Share</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#1a237e"/>
+  
+  <!-- Incident Response Workflow -->
+  <circle cx="80" cy="80" r="30" fill="#303f9f" stroke="#3d5afe" stroke-width="2"/>
+  <text x="80" y="85" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Identify</text>
+  
+  <circle cx="200" cy="80" r="30" fill="#303f9f" stroke="#3d5afe" stroke-width="2"/>
+  <text x="200" y="85" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Contain</text>
+  
+  <circle cx="320" cy="80" r="30" fill="#303f9f" stroke="#3d5afe" stroke-width="2"/>
+  <text x="320" y="85" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Eradicate</text>
+  
+  <circle cx="140" cy="160" r="30" fill="#303f9f" stroke="#3d5afe" stroke-width="2"/>
+  <text x="140" y="165" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Recover</text>
+  
+  <circle cx="260" cy="160" r="30" fill="#303f9f" stroke="#3d5afe" stroke-width="2"/>
+  <text x="260" y="165" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Learn</text>
+  
+  <!-- Connection Arrows -->
+  <path d="M110 80 L170 80" stroke="#3d5afe" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M230 80 L290 80" stroke="#3d5afe" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M320 110 L260 130" stroke="#3d5afe" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M230 160 L170 160" stroke="#3d5afe" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M140 130 L80 110" stroke="#3d5afe" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3d5afe"/>
+    </marker>
+  </defs>
+  
+  <!-- Alert Icons -->
+  <circle cx="80" cy="50" r="8" fill="#f44336"/>
+  <text x="80" y="54" font-family="Arial" font-size="12" fill="white" text-anchor="middle">!</text>
+  
+  <!-- Computer Icons -->
+  <rect x="185" y="50" width="30" height="20" rx="2" fill="#0d47a1"/>
+  <rect x="190" y="70" width="20" height="3" fill="#0d47a1"/>
+  
+  <rect x="305" y="50" width="30" height="20" rx="2" fill="#0d47a1"/>
+  <rect x="310" y="70" width="20" height="3" fill="#0d47a1"/>
+  
+  <rect x="125" y="130" width="30" height="20" rx="2" fill="#0d47a1"/>
+  <rect x="130" y="150" width="20" height="3" fill="#0d47a1"/>
+  
+  <!-- Document Icon -->
+  <path d="M260 130 L270 130 L270 140 L250 140 L250 130 Z" fill="#e8eaf6"/>
+  <path d="M252 133 L268 133 M252 136 L268 136" stroke="#3949ab" stroke-width="1"/>
+  
+  <!-- Digital Elements -->
+  <text x="40" y="200" font-family="monospace" font-size="8" fill="#8c9eff">INCIDENT STATUS: ACTIVE</text>
+  <text x="40" y="210" font-family="monospace" font-size="8" fill="#8c9eff">RESPONSE TIME: 00:15:42</text>
+  <text x="40" y="220" font-family="monospace" font-size="8" fill="#8c9eff">SEVERITY: HIGH</text>
+  
+  <!-- Title -->
+  <text x="200" y="230" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Incident Response Framework</text>
+</svg>
