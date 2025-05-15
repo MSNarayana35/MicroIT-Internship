@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calci</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-name">Basic Calci</div>
+    <div class="container">
+        <div class="calculator-container">
+            <div class="calculator">
+                <div class="display">
+                    <div class="previous-operand" id="previous-operand"></div>
+                    <div class="current-operand" id="current-operand">0</div>
+                </div>
+                <div class="buttons">
+                    <button class="special" onclick="clearAll()">AC</button>
+                    <button class="special" onclick="deleteLastChar()">DEL</button>
+                    <button class="operator" onclick="appendOperator('%')">%</button>
+                    <button class="operator" onclick="appendOperator('÷')">÷</button>
+                    
+                    <button class="number" onclick="appendNumber('7')">7</button>
+                    <button class="number" onclick="appendNumber('8')">8</button>
+                    <button class="number" onclick="appendNumber('9')">9</button>
+                    <button class="operator" onclick="appendOperator('×')">×</button>
+                    
+                    <button class="number" onclick="appendNumber('4')">4</button>
+                    <button class="number" onclick="appendNumber('5')">5</button>
+                    <button class="number" onclick="appendNumber('6')">6</button>
+                    <button class="operator" onclick="appendOperator('-')">-</button>
+                    
+                    <button class="number" onclick="appendNumber('1')">1</button>
+                    <button class="number" onclick="appendNumber('2')">2</button>
+                    <button class="number" onclick="appendNumber('3')">3</button>
+                    <button class="operator" onclick="appendOperator('+')">+</button>
+                    
+                    <button class="number" onclick="appendNumber('0')">0</button>
+                    <button class="number" onclick="appendNumber('.')">.</button>
+                    <button class="equals" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+        
+        <button id="history-toggle" class="history-toggle" onclick="toggleHistory()">
+            <i class="fas fa-history"></i> History
+        </button>
+        
+        <div class="history-container" id="history-container" style="display: none;">
+            <div class="history-header">
+                <h2>History</h2>
+                <div class="history-actions">
+                    <button id="clear-history" onclick="clearHistory()">Clear All</button>
+                    <button id="delete-selected" onclick="deleteSelected()" disabled>Delete Selected</button>
+                </div>
+            </div>
+            <div class="history-list" id="history-list">
+                <div class="empty-history">No calculations yet</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
